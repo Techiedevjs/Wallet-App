@@ -1,0 +1,113 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.upper{
+	text-transform: uppercase;
+}
+.positive {
+	color: #00D9B2;
+}
+.negative {
+	color: rgba(255, 40, 40, 0.6);
+}
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+/* :root{
+	--fxs: 10px;
+	--fs: 12px;
+	--fm: 14px;
+	--fl: 16px;
+	--fxl: 20px;
+} */
+input{
+	outline: none;
+	border: none;
+	text-align: center;
+}
+input::placeholder{
+	font-family: 'Outfit';
+	font-size: var(--fl);
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%; /* 18px */
+	letter-spacing: 0.9px;
+	color: rgba(0, 0, 0, 0.30);
+}
+:root{
+	--fxs: 12px;
+	--fs: 14px;
+	--fm: 16px;
+	--fl: 18px;
+	--fxl: 24px; 
+}
+/* @media screen and (min-height: 700px) {
+	:root{
+		--fxs: 12px;
+		--fs: 14px;
+		--fm: 16px;
+		--fl: 18px;
+		--fxl: 24px; 
+	}
+} */
